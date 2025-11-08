@@ -9,7 +9,8 @@ Bootstrap Variables Override
     --secondary-color: #f9d583;
 
     /* Replace the main body font from your UI Kit */
-    --bs-font-sans-serif: 'Inter', verdana, sans-serif;
+    --bs-font-sans-serif: 'Fredoka', verdana, sans-serif;
+    --bs-body-font: 'Nunito', verdana, sans-serif;
 
     /* Optional: Replace gradient from your UI Kit */
     --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
@@ -41,6 +42,10 @@ footer .footer-social {
     width:24px;
     margin:.5rem
 }
+/* .btn-hero {
+    display: flex;
+    justify-self: center;
+} */
 
 .btn-primary {
     /* Optional: Change primary button background color to primary color */
@@ -75,6 +80,9 @@ h2 {
     font-size: 2rem;
 }
 
+p {
+    font-family: var(--bs-body-font);
+}
 .display-1 {
     /* Optional: Customizes display-1 style based on my Figma UI kit */
     font-weight: 800;
